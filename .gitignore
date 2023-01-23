@@ -1,0 +1,13 @@
+# Ignore override files as they are used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan files
+myplan
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc 
+.terraform.lock.hcl
